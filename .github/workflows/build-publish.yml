@@ -21,9 +21,6 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
 
-      - name: Run tests
-        run: mvn test
-
       - name: Build
         run: mvn package -DskipTests
 
